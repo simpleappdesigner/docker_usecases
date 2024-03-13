@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  docker-hello-world: # service name
+    build:
+      context: . # will build based on dockerfile
+    container_name: docker-hello-world
+    command: python main.py
+
+
