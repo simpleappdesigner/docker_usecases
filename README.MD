@@ -14,3 +14,7 @@ then check `docker image ls` or `docker images -a`
 ![docker output image](output.png)
 
 Note: If content changed, and image need to be current, run build command.
+
+# docker-compose
+1. create `docker-compose.yml`
+2. run `docker-compose up` will build image and start the container
